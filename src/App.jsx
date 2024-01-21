@@ -5,7 +5,7 @@ import './Tree.css';
 const App = () => {
   return (
     <div>
-      <h1>Tree Structure</h1>
+      <h1 className=' text-2xl text-center font-bold'>Tree Structure</h1>
       <Tree data={treeData} />
     </div>
   );
